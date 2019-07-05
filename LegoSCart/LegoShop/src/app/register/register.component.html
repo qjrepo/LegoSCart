@@ -1,0 +1,23 @@
+<div class="container">
+<section id="content">
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="form">
+<h1> Register Form</h1>
+    <input type="text" formControlName="firstname" required placeholder="First Name">
+
+
+
+    <input type="text" formControlName="lastname" placeholder="Last Name">
+
+
+ 
+      <input type="text" formControlName="email" placeholder="Email">
+
+
+  
+      <input type="text" formControlName="password" placeholder="Password">
+
+
+  <button type="rsubmit" [disabled]="!registerForm.valid">Register</button>
+</form>
+</section>
+</div>

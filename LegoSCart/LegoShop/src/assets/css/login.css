@@ -1,0 +1,155 @@
+﻿/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	background: #DCDDDF url(https://cssdeck.com/uploads/media/items/7/7AF2Qzt.png);
+	color: #000;
+	font: 14px Arial;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+h1{ font-size:28px;}
+
+h1{ color:#563D64;}
+
+form:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.container { margin: 25px auto; position: relative; width: 900px; }
+#content a{
+	background: rgb(254,231,154);
+	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	border-radius: 30px;
+	border: 1px solid #D69E31;
+	color: #85592e;
+	float: right;
+	font: bold 15px Helvetica, Arial, sans-serif;
+	height: 35px;
+	margin: 18px 0 25px 20px;
+	position: relative;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	text-align-last: center;
+	padding:8px;
+	width: 120px;
+}
+#content {
+	background: #f9f9f9;
+  margin: 0 auto;
+	padding: 25px 0 0;
+	position: relative;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+	width: 400px;
+}
+#content h1 {
+	color: #7E7E7E;
+	font: bold 25px Helvetica, Arial, sans-serif;
+	letter-spacing: -0.05em;
+	line-height: 20px;
+	margin: 10px 0 30px;
+}
+#content h1:before,
+#content h1:after {
+	content: "";
+	height: 1px;
+	position: absolute;
+	top: 10px;
+	width: 27%;
+}
+#content h1:after {
+	background: rgb(126,126,126);
+    right: 0;
+}
+#content h1:before {
+	background: rgb(126,126,126);
+  left: 0;
+}
+#content:after,
+#content:before {
+	background: #f9f9f9;
+}
+#content:after {
+	top: 0;
+	z-index: -1;
+}
+#content:before {
+	top: 0;
+	z-index: -2;
+}
+#content form { margin: 0 20px; position: relative }
+#content form input[type="text"],
+#content form input[type="password"] {
+	background: #eae7e7 url(https://cssdeck.com/uploads/media/items/8/8bcLQqF.png) no-repeat;
+	font: 13px Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	padding: 15px 10px 15px 40px;
+	width: 80%;
+}
+#content form input[type="text"]:focus {
+	background-color: #fff;
+	border: 1px solid #ed1c24;
+	outline: none;
+}
+#content form input[type="password"]:focus {
+	background-color: #fff;
+	border: 1px solid #ed1c24;
+	outline: none;
+}
+#username { background-position: 10px 10px !important }
+#password { background-position: 10px -53px !important }
+#content form button[type="submit"] {
+	background: rgb(254,231,154);
+	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	border-radius: 30px;
+	border: 1px solid #D69E31;
+	color: #85592e;
+	float: left;
+	font: bold 15px Helvetica, Arial, sans-serif;
+	height: 35px;
+	margin: 20px 0 35px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	width: 120px;
+}
+
+#content form button[type="rsubmit"] {
+	background: rgb(254,231,154);
+	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	border-radius: 30px;
+	border: 1px solid #D69E31;
+	color: #85592e;
+	font: bold 15px Helvetica, Arial, sans-serif;
+	height: 35px;
+	margin: 20px 0 35px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	width: 120px;
+}
+
+#content form div a {
+	color: #004a80;
+    float: right;
+    font-size: 12px;
+    margin: 350px 15px 0 0;
+    text-decoration: underline;
+}

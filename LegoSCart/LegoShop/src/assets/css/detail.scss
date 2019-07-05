@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+  width: 1000vw;
+  font-family: Lato, sans-serif;
+}
+
+
+
+.shopping_details {
+  width: 100%;
+  margin: 50px auto;
+  
+  .shopping_detail {
+    margin: 20px auto;
+    width: 600px;
+    height: 800px;
+    overflow: hidden;
+    position:relative;
+    
+    @media (max-width:600px) {
+      width: 100%;
+      height: 450px;
+    }
+    
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      transition: transform 400ms ease-out;
+      -webkit-transition: transform 400ms ease-out;
+    }
+    img:hover {
+      transform: scale(1.15);
+      -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+    }
+    .add_to_bag {
+      width: 100%;
+      background-color:rgb(178, 225, 236);
+      height: 60px;
+      display: block;
+      bottom: 0;
+      right: 0;
+      border-radius: 0!important;
+      font-family: Lato, sans-serif;
+      font-weight: 600;
+      
+      a, a:hover, a:focus, a:active {
+        color: rgb(5, 5, 5);
+        letter-spacing: 3px;
+      }
+    }
+    .name, .price, span {
+      font-weight: bold;
+      letter-spacing: .2px;
+      color: #212121;
+    }
+    mark {
+      background-color: #E0E0E0;
+      font-size: 11px;
+      letter-spacing: 1px;
+      padding: 2.5px 10px;
+      font-weight: 600;
+    }
+    .underline {
+      margin-top: 0;
+      border: 2px solid #5d5d5d;
+    }
+    p {
+      color: #5d5d5d;
+    }
+  }
+    
+   
+  @media (min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+}

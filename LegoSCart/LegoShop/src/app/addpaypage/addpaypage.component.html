@@ -1,0 +1,47 @@
+<mat-toolbar style="  box-shadow: 0 9px rgb(155, 151, 151); background-color:rgb(178, 225, 236); border-radius: 25px">
+  <img src="https://stachhh.neocities.org/logo.jpg" style=" position: relative; left:90px;height:44px; width:90px" />
+<span style=" padding-top: 5px;position: relative; left: 100px; font-family:fantasy; font-weight: bolder;font-size:40px">Store</span>
+
+<p style='position:relative;left:700px ;weight:10px;font-weight:bold;font-size:30px'>Hello! {{this.userfname}} {{this.userlname}}</p>
+<nav  style="position: relative; left: 750px">
+  <a routerLink="/checkout"  routerLinkActive="active"  style="border-radius:30px; weight:140px;height:25px; background-color: cornsilk;font-weight:bold;" class="btn btn-primary;">View Cart</a>
+ </nav>
+ 
+
+ <nav  style="position: relative; left: 800px">
+    <a routerLink="/homepage"  routerLinkActive="active"  style="border-radius:30px; weight:140px;height:25px;background-color: cornsilk;font-weight:bold;" class="btn btn-primary;">Home Page</a>
+   </nav>
+</mat-toolbar>
+
+<div class="container">
+<section id="content">
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()" class="form">
+<h1> Checkout Form</h1>
+    <input type="text" formControlName="cardnumber" required placeholder="Cardnumber">
+
+
+
+    <input type="text" formControlName="bankname" placeholder="Bankname">
+
+
+ 
+      <input type="text" formControlName="holdname" placeholder="Holdname">
+
+
+  
+      <input type="text" formControlName="expiredate" placeholder="Expiredate">
+
+      
+      <input type="text" formControlName="cvs" placeholder="CVS">
+
+
+  <button   type="submit" >Checkout</button>
+
+    <nav >
+  <a routerLink="/homepage"  routerLinkActive="active" >Keep shopping</a>
+  </nav>
+  
+</form>
+</section>
+
+</div>

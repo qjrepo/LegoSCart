@@ -1,0 +1,95 @@
+<mat-toolbar style=" box-shadow: 0 9px rgb(155, 151, 151); background-color:rgb(178, 225, 236); border-radius: 25px">
+   <img src="https://stachhh.neocities.org/logo.jpg" style=" position: relative; left:90px;height:44px; width:90px" />
+ <span style=" padding-top: 5px;position: relative; left: 100px; font-family:fantasy; font-weight: bolder;font-size:40px">Store</span>
+ 
+ <p style='position:relative;left:450px;weight:10px;font-weight:bold;font-size:30px'>Hello! {{this.userfname}} {{this.userfname}}</p>
+ <nav  style="position: relative; left: 650px">
+   <a routerLink="/checkout"  routerLinkActive="active"  style="border-radius: 30px;background-color: cornsilk;font-weight:bold;" class="btn btn-primary;">View Cart</a>
+  </nav>
+  
+
+  <nav  style="position: relative; left: 700px">
+      <a routerLink="/homepage"  routerLinkActive="active"  style="border-radius: 30px;background-color: cornsilk;font-weight:bold;" class="btn btn-primary;">Home Page</a>
+     </nav>
+ </mat-toolbar>
+ <br>
+ <br>
+ <head>
+   
+
+ </head> 
+<style>
+  
+  table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+</style>
+
+<body>
+<!-- <div  class = "infoWrap">
+<div class= " cartSection"> -->
+
+ <table>
+    <tr> 
+     
+        <th style=" position:relative;left: 40px;"><h4 style="font-weight: bold">Ordertime</h4></th>
+        
+        <th  style=" position:relative;left: 5px;"><h4 style="font-weight: bold">Lego Name</h4></th>
+        
+        <th style=" position:relative;left: 30px;"><h4 style="font-weight: bold">Payment account</h4></th>
+
+        <th style=" position:relative;left: 30px;"><h4 style="font-weight: bold">Quantity</h4></th>
+      </tr> 
+  <tr>
+<td><ul class="checkoutlist1">
+  
+  <h4 *ngFor="let element of checkoutlist1">
+     {{element.Ordertime}} 
+  </h4>
+
+</ul> </td>
+<td>
+<ul>
+    <h4 *ngFor="let element of checkoutlist1" >
+            {{element.Useraccount}} 
+        </h4>
+</ul></td>
+<td>
+<ul>
+    <h4 *ngFor="let element of checkoutlist1">
+             {{element.Payaccount}} 
+    </h4>
+</ul></td>
+<td>
+<ul>
+    <h4 *ngFor="let element of checkoutlist1">
+             {{element.Quantity}} 
+    </h4>
+</ul></td>
+</tr>
+</table>
+<!-- </table> -->
+
+
+
+<nav style = "margin-left: 950px;top:100px; float:left">
+    <a routerLink="/homepage"  style="background-color:cornflowerblue;color:white;font-weight: bold" routerLinkActive="active" class="btn ">Keep Shopping</a>
+</nav>
+
+
+
+
+
+
+
+</body>

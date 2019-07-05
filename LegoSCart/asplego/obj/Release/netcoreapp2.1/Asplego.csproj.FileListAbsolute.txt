@@ -1,0 +1,15 @@
+C:\Users\wyfda\Desktop\asplego\bin\Release\netcoreapp2.1\Asplego.deps.json
+C:\Users\wyfda\Desktop\asplego\bin\Release\netcoreapp2.1\Asplego.runtimeconfig.json
+C:\Users\wyfda\Desktop\asplego\bin\Release\netcoreapp2.1\Asplego.runtimeconfig.dev.json
+C:\Users\wyfda\Desktop\asplego\bin\Release\netcoreapp2.1\Asplego.dll
+C:\Users\wyfda\Desktop\asplego\bin\Release\netcoreapp2.1\Asplego.pdb
+C:\Users\wyfda\Desktop\asplego\obj\Release\netcoreapp2.1\Asplego.csprojAssemblyReference.cache
+C:\Users\wyfda\Desktop\asplego\obj\Release\netcoreapp2.1\Asplego.csproj.CoreCompileInputs.cache
+C:\Users\wyfda\Desktop\asplego\obj\Release\netcoreapp2.1\Asplego.RazorAssemblyInfo.cache
+C:\Users\wyfda\Desktop\asplego\obj\Release\netcoreapp2.1\Asplego.RazorAssemblyInfo.cs
+C:\Users\wyfda\Desktop\asplego\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\wyfda\Desktop\asplego\obj\Release\netcoreapp2.1\Asplego.AssemblyInfoInputs.cache
+C:\Users\wyfda\Desktop\asplego\obj\Release\netcoreapp2.1\Asplego.AssemblyInfo.cs
+C:\Users\wyfda\Desktop\asplego\obj\Release\netcoreapp2.1\Asplego.RazorTargetAssemblyInfo.cache
+C:\Users\wyfda\Desktop\asplego\obj\Release\netcoreapp2.1\Asplego.dll
+C:\Users\wyfda\Desktop\asplego\obj\Release\netcoreapp2.1\Asplego.pdb

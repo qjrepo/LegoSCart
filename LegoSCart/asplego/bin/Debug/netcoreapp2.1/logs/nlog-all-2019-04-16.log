@@ -1,0 +1,136 @@
+2019-04-16 00:21:08.6267||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 00:21:55.8111||TRACE|Asplego.Controllers.PaymentsController|add new payment 
+2019-04-16 00:21:57.8750||TRACE|Asplego.Controllers.LegosController|add new order in db 
+2019-04-16 00:22:36.8809||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 00:22:38.5090||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:22:39.9295||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:24:52.0141||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:27:36.2399||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:28:14.2377||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 00:28:17.0003||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:28:18.6326||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:28:44.9757||TRACE|Asplego.Controllers.PaymentsController|add new payment 
+2019-04-16 00:28:46.7298||TRACE|Asplego.Controllers.LegosController|add new order in db 
+2019-04-16 00:28:55.1133||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:29:05.6435||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:30:31.3952||TRACE|Asplego.Controllers.PaymentsController|add new payment 
+2019-04-16 00:30:37.4697||TRACE|Asplego.Controllers.LegosController|add new order in db 
+2019-04-16 00:31:38.8445||TRACE|Asplego.Controllers.LegosController|add new order in db 
+2019-04-16 00:31:38.8568||TRACE|Asplego.Controllers.PaymentsController|add new payment 
+2019-04-16 00:32:25.1682||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:35:26.9291||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 00:36:03.1966||TRACE|Asplego.Controllers.LegosController|add new order in db 
+2019-04-16 00:36:03.2137||TRACE|Asplego.Controllers.PaymentsController|add new payment 
+2019-04-16 00:36:10.1514||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:38:45.0896||TRACE|Asplego.Controllers.LegosController|add new order in db 
+2019-04-16 00:38:45.1186||TRACE|Asplego.Controllers.PaymentsController|add new payment 
+2019-04-16 00:38:49.9488||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:40:05.2350||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 00:40:06.1081||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 01:00:10.9601||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 01:02:59.1367||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 01:03:00.0874||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 01:03:37.1973||TRACE|Asplego.Controllers.PaymentsController|add new payment 
+2019-04-16 01:03:46.1747||TRACE|Asplego.Controllers.LegosController|add new order in db 
+2019-04-16 01:06:51.5804||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 01:08:39.7356||TRACE|Asplego.Controllers.LegosController|add new order in db 
+2019-04-16 01:08:39.7419||TRACE|Asplego.Controllers.PaymentsController|add new payment 
+2019-04-16 01:10:41.8255||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 01:11:48.3899||TRACE|Asplego.Controllers.PaymentsController|add new payment 
+2019-04-16 01:11:50.6624||TRACE|Asplego.Controllers.LegosController|add new order in db 
+2019-04-16 01:13:27.9026||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 01:13:29.2157||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 01:13:30.8457||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 01:56:20.0824||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 01:56:21.5369||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 01:56:22.8321||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 01:56:50.4071||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 01:57:01.3359||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 01:57:16.6250||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 01:59:48.4576||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 01:59:48.9506||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 01:59:49.6307||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:00:01.5512||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:00:04.3314||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:00:06.6052||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:00:23.8709||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:04:34.3768||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:04:43.4012||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:04:54.0607||TRACE|Asplego.Controllers.UsersController|search whether users is in db 
+2019-04-16 02:05:01.2566||TRACE|Asplego.Controllers.UsersController|search whether users is in db 
+2019-04-16 02:05:02.3425||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:05:03.4492||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:05:04.3311||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:05:35.8321||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:05:47.9278||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:06:37.9673||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:06:49.8791||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:07:19.8875||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:07:48.5828||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:07:49.2143||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:07:52.3054||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:07:52.7666||TRACE|Asplego.Controllers.UserorderController|search whether payment is in db 
+2019-04-16 02:27:52.2062||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:31:28.8737||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:41:28.4285||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:41:55.4869||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:42:12.0833||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:42:13.7110||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:42:27.4965||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:42:28.6172||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:43:48.8966||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:43:50.0933||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:44:39.0754||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:44:40.5627||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:44:41.5968||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:44:42.7560||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:44:48.1905||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:44:49.6988||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:44:57.3104||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:44:59.1504||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:45:11.5262||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:45:13.0983||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:45:37.0931||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:45:38.3650||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:47:24.1049||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:47:26.3893||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:47:30.6963||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:47:47.7121||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:47:56.9615||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:49:44.2808||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:49:58.9209||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:50:52.0931||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:50:53.8603||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:50:55.1244||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:50:56.1702||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:50:57.6230||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:51:07.8187||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:51:14.8227||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:51:23.0146||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:51:28.8560||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:52:09.0624||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:52:20.0698||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:52:25.7599||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:53:20.9034||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:53:28.2460||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:54:31.4310||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:54:36.4520||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:55:17.9911||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:55:31.1317||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:56:31.0552||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:56:39.4946||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 02:57:08.2483||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 02:57:14.9029||TRACE|Asplego.Controllers.UserorderController|get all Payments 
+2019-04-16 13:37:40.6136||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 13:51:56.1946||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 14:46:43.2785||TRACE|Asplego.Controllers.LegosController|add new order in db 
+2019-04-16 14:46:43.4031||TRACE|Asplego.Controllers.PaymentsController|add new payment 
+2019-04-16 14:46:43.7089||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 14:46:44.0462||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 22:32:12.7227||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 22:35:41.9782||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 22:37:56.7442||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 23:07:31.3042||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 23:08:37.0788||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 23:19:50.6955||TRACE|Asplego.Controllers.UsersController|get all users 
+2019-04-16 23:47:24.5098||TRACE|Asplego.Controllers.UsersController|get all users 

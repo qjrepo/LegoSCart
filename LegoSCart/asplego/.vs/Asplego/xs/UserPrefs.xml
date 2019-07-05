@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{CEEBEB46-CE9C-4A6D-8236-15EEC5458088}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/LegosController.cs">
+    <Files>
+      <File FileName="Controllers/UsersController.cs" Line="94" Column="31" />
+      <File FileName="Controllers/LegosController.cs" Line="51" Column="1" />
+      <File FileName="Models/LegosManager.cs" Line="26" Column="1" />
+      <File FileName="Models/UsersClient.cs" Line="145" Column="1" />
+      <File FileName="Models/UserOrder.cs" Line="22" Column="10" />
+      <File FileName="Controllers/UserOrdersController.cs" Line="70" Column="17" />
+      <File FileName="Models/Lego.cs" Line="5" Column="6" />
+      <File FileName="Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/PaymentsController.cs" Line="29" Column="7" />
+      <File FileName="Controllers/OrderPaymentController.cs" Line="1" Column="1" />
+      <File FileName="Models/OrderPayment.cs" Line="16" Column="10" />
+      <File FileName="Models/Payments.cs" Line="1" Column="1" />
+      <File FileName="Models/PaymentsManager.cs" Line="21" Column="25" />
+      <File FileName="Models/UserOrderManager1.cs" Line="89" Column="69" />
+      <File FileName="Models/UserOrderManager.cs" Line="31" Column="1" />
+      <File FileName="Models/UsersManager.cs" Line="111" Column="48" />
+      <File FileName="Models/Users.cs" Line="15" Column="12" />
+      <File FileName="Controllers/CheckoutController.cs" Line="19" Column="1" />
+      <File FileName="Models/CheckoutManager.cs" Line="15" Column="1" />
+      <File FileName="Models/Checkout.cs" Line="17" Column="28" />
+      <File FileName="Controllers/UserorderController.cs" Line="29" Column="1" />
+      <File FileName="Startup.cs" Line="66" Column="25" />
+      <File FileName="Models/Ordercreate.cs" Line="14" Column="2" />
+      <File FileName="Controllers/CheckController.cs" Line="16" Column="25" />
+      <File FileName="Controllers/RemoveOneController.cs" Line="60" Column="18" />
+      <File FileName="Program.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Asplego" expanded="True">
+            <Node name="Asplego" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Asplego PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/huihuanzhao/Desktop/copy/TuesdayLego/asplego/Controllers/LegosController.cs" relfile="Controllers/LegosController.cs" line="50" column="1" />
+      <Breakpoint file="/Users/huihuanzhao/Desktop/copy/TuesdayLego/asplego/Models/UserOrderManager.cs" relfile="Models/UserOrderManager.cs" line="91" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

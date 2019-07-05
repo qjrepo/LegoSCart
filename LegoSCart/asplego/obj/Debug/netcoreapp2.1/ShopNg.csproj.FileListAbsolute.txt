@@ -1,0 +1,14 @@
+/Users/huihuanzhao/Desktop/aspnetcore/bin/Debug/netcoreapp2.1/ShopNg.deps.json
+/Users/huihuanzhao/Desktop/aspnetcore/bin/Debug/netcoreapp2.1/ShopNg.runtimeconfig.json
+/Users/huihuanzhao/Desktop/aspnetcore/bin/Debug/netcoreapp2.1/ShopNg.runtimeconfig.dev.json
+/Users/huihuanzhao/Desktop/aspnetcore/bin/Debug/netcoreapp2.1/ShopNg.dll
+/Users/huihuanzhao/Desktop/aspnetcore/bin/Debug/netcoreapp2.1/ShopNg.pdb
+/Users/huihuanzhao/Desktop/aspnetcore/obj/Debug/netcoreapp2.1/ShopNg.csprojAssemblyReference.cache
+/Users/huihuanzhao/Desktop/aspnetcore/obj/Debug/netcoreapp2.1/ShopNg.csproj.CoreCompileInputs.cache
+/Users/huihuanzhao/Desktop/aspnetcore/obj/Debug/netcoreapp2.1/ShopNg.RazorAssemblyInfo.cache
+/Users/huihuanzhao/Desktop/aspnetcore/obj/Debug/netcoreapp2.1/ShopNg.RazorAssemblyInfo.cs
+/Users/huihuanzhao/Desktop/aspnetcore/obj/Debug/netcoreapp2.1/ShopNg.AssemblyInfoInputs.cache
+/Users/huihuanzhao/Desktop/aspnetcore/obj/Debug/netcoreapp2.1/ShopNg.AssemblyInfo.cs
+/Users/huihuanzhao/Desktop/aspnetcore/obj/Debug/netcoreapp2.1/ShopNg.RazorTargetAssemblyInfo.cache
+/Users/huihuanzhao/Desktop/aspnetcore/obj/Debug/netcoreapp2.1/ShopNg.dll
+/Users/huihuanzhao/Desktop/aspnetcore/obj/Debug/netcoreapp2.1/ShopNg.pdb

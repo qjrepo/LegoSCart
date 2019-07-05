@@ -1,0 +1,110 @@
+<mat-toolbar style=" box-shadow: 0 9px rgb(155, 151, 151); background-color:rgb(178, 225, 236); border-radius: 25px">
+   <img src="https://stachhh.neocities.org/logo.jpg" style=" position: relative; left:90px;height:44px; width:90px" />
+ <span style=" padding-top: 5px;position: relative; left: 100px; font-family:fantasy; font-weight: bolder;font-size:40px">Store</span>
+ 
+ <p style='position:relative;left:700px'>Hello! {{this.userfname}} {{this.userlname}}</p>
+ <nav  style="position: relative; left: 750px">
+   <a routerLink="/checkout"  routerLinkActive="active"  style="border-radius: 30px;background-color: cornsilk" class="btn btn-primary;">View Cart</a>
+  </nav>
+  
+  <nav style="position: relative; left: 750px">
+   <a (click)="clearCart()"  outerLink="/checkout"  class="btn btn-primary" style="border-radius: 30px; background-color: cornsilk"> Clear Cart</a>
+  </nav>
+  <nav  style="position: relative; left: 750px">
+      <a routerLink="/homepage"  routerLinkActive="active"  style="border-radius: 30px;background-color: cornsilk" class="btn btn-primary;">Home Page</a>
+     </nav>
+ </mat-toolbar>
+ <br>
+ <br>
+ <head>
+   
+
+ </head> 
+<style>
+  
+  table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+</style>
+
+<body>
+<!-- <div  class = "infoWrap">
+<div class= " cartSection"> -->
+
+ <table>
+    <tr> 
+     
+        <th style=" position:relative;left: 40px;"><h4 style="font-weight: bold">Item Name</h4></th>
+        
+        <th  style=" position:relative;left: 5px;"><h4 style="font-weight: bold">Item Type</h4></th>
+        
+        <th style=" position:relative;left: 30px;"><h4 style="font-weight: bold">Item Price</h4></th>
+
+        <th style=" position:relative;left: 30px;"><h4 style="font-weight: bold">Quantity</h4></th>
+      </tr> 
+  <tr>
+<td><ul class="checkoutlist1">
+  
+  <h4 *ngFor="let element of checkoutlist1" >
+  <img src={{element.list.Age}} width="50" height="35"/>
+     {{element.list.Name}} 
+  </h4>
+
+</ul> </td>
+<td>
+<ul>
+    <h4 *ngFor="let element of checkoutlist1" >
+            {{element.list.Type}} 
+        </h4>
+</ul></td>
+<td>
+<ul>
+    <h4 *ngFor="let element of checkoutlist1">
+            $ {{element.list.Price}} 
+    </h4>
+</ul></td>
+<td>
+<ul>
+    <h4 *ngFor="let element of checkoutlist1">
+             {{element.count}} 
+    </h4>
+</ul></td>
+<td>
+<ul>
+  <h4 *ngFor="let element of checkoutlist1">
+         
+    
+  <nav>
+   <a (click)="removeOne()"  outerLink="/checkout"  class="btn btn-primary" style="border-radius: 30px; background-color: cornsilk"> Remove</a>
+  </nav>
+  </h4>
+</ul></td>
+</tr>
+</table>
+<!-- </table> -->
+
+<h4 style = "margin-left: 980px">Total:$ {{this.total}}</h4>
+
+<nav style = "margin-left: 950px;top:100px; float:left">
+    <a routerLink="/homepage"  style="background-color:cornflowerblue;color:white;font-weight: bold" routerLinkActive="active" class="btn ">Keep Shopping</a>
+</nav>
+
+<nav style = "margin-left: 1000px;top:100px; ">
+    <a  style="background-color:darkcyan;color:white;font-weight: bold"  routerLink="/addpaypage"  routerLinkActive="active" class="btn ">Add Payment</a>
+</nav>
+
+
+
+
+
+</body>

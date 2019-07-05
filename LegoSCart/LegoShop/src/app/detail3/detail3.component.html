@@ -1,0 +1,45 @@
+<mat-toolbar style=" box-shadow: 0 9px rgb(155, 151, 151); background-color:rgb(178, 225, 236); border-radius: 25px">
+  <img src="https://stachhh.neocities.org/logo.jpg" style=" position: relative; left:90px;height:44px; width:90px" />
+<span style=" padding-top: 5px;position: relative; left: 100px; font-family:fantasy; font-weight: bolder;font-size:40px">Store</span>
+
+<p style='position:relative;left:450px;weight:10px;font-weight:bold;font-size:30px'>Hello! {{this.userfname}} {{this.userlname}}</p>
+<nav  style="position: relative; left: 600px">
+  <a routerLink="/checkout"  routerLinkActive="active"  style="border-radius: 30px;background-color: cornsilk;font-weight:bold;" class="btn btn-primary;">View Cart</a>
+ </nav>
+ 
+ <nav style="position: relative; left: 650px">
+  <a (click)="clearCart()" class="btn btn-primary" style="border-radius: 30px; background-color: cornsilk;font-weight:bold;"> Clear Cart</a>
+ </nav>
+ <nav  style="position: relative; left: 700px">
+    <a routerLink="/homepage"  routerLinkActive="active"  style="border-radius: 30px;background-color: cornsilk;font-weight:bold;" class="btn btn-primary;">Home Page</a>
+   </nav>
+</mat-toolbar>
+<div class="shopping_details">
+  <div class="shopping_detail shopping_detail_img">
+    <img src="https://stachhh.neocities.org/assemblydetail.jpg" alt="" style="width:auto;height:auto;max-weight:auto;max-height:auto;">
+  </div>
+  <div class="shopping_detail shopping_detail_description">
+    
+    <h3 class="name">{{item3.Name}}</h3>
+    <hr class="underline">
+    <p class="description">{{item3.Description}}</p>
+    <hr>
+    <mark class="pull-right">PRICE</mark>
+    <h4 class="price">${{item3.Price}}</h4>
+    <hr>
+    <p><span>Type: </span>{{item3.Type}}</p>
+    <p><span>Pieces: </span>{{item3.Pieces}} </p>
+    <p><span>Age: </span>{{item3.Age}}</p>
+    <button type="bytton" class="btn add_to_bag"><nav>
+    <a routerLink="/checkout"  routerLinkActive="active" >Checkout</a>
+  </nav></button><br>
+   <button type="bytton" class="btn add_to_bag"><nav>
+    <a (click) ="add(3)">Add to cart</a>
+  </nav></button><br>
+<button type="bytton" class="btn add_to_bag">
+<nav>
+    <a routerLink="/homepage"  routerLinkActive="active" class="cart-btn">Back shop</a>
+  </nav></button>
+  </div>
+</div>
+

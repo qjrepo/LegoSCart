@@ -1,0 +1,179 @@
+
+<mat-toolbar style=" box-shadow: 0 9px rgb(155, 151, 151); background-color:rgb(178, 225, 236); border-radius: 25px">
+  <img src="https://stachhh.neocities.org/logo.jpg" style=" position: relative; left:90px;height:44px; width:90px" />
+<span style=" padding-top: 5px;position: relative; left: 100px; font-family:fantasy; font-weight: bolder;font-size:40px">Store</span>
+
+<p style='position:relative;left:450px;padding-top: 15px;weight:10px;font-weight:bold;font-size:30px'>Hello! {{this.userfname}} {{this.userlname}}</p>
+<nav  style="position: relative; left: 500px">
+  <a routerLink="/checkout"  routerLinkActive="active"  style="border-radius: 30px;background-color: cornsilk;font-weight:bold;" class="btn btn-primary;">View Cart</a>
+ </nav>
+ <nav style="position: relative; left: 530px">
+  <a (click)="clearCart()" class="btn btn-primary" style="border-radius: 30px; background-color: cornsilk;font-weight:bold;"> Clear Cart</a>
+ </nav>
+
+
+  <nav style="position: relative; left: 700px">
+  <a routerLink="/viewhistory" class="btn btn-primary" style="border-radius: 30px; background-color: cornsilk;color:black; position: relative; right:150px;font-weight:bold;"> View OrderHistory</a>
+ </nav>
+ <a (click)="logout()" style=" position:relative; float:right;right:-570px;font-weight:bold;">Logout</a>
+</mat-toolbar><br>
+
+<div  style=" position:relative; float:right;right:0px;">
+<carousel style="position:relative;float:left; right:240px;">
+    <slide >
+        <img src="https://stachhh.neocities.org/lego5.jpg" alt="first slide" style="display: block;height:400px; width: 1000px;">
+      </slide>
+    <slide>
+        <img src="https://stachhh.neocities.org/lego3.jpg" alt="second slide" style="display: block;height:400px; width: 1000px;">
+      </slide>
+    <slide>
+        <img src="https://stachhh.neocities.org/lego1.jpg" alt="third slide" style="display: block;height:400px; width: 1000px;">
+      </slide>
+  </carousel>
+</div>
+
+
+
+
+
+
+<div class="row" style="position:absolute;padding-bottom: 20px;top:500px;">
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">  
+<div class="card" style=" posititon:absolute;left:100px;width:250px;height:280px">
+  <img src="https://stachhh.neocities.org/b1.jpg" alt="Big Ben" width="200" height="150" style=" position:absolute; float:left; left:30px;" />
+  <div class="card-body">
+  
+ 
+  <h4 style=" position:absolute; float:left; left:80px;top:160px;">{{item1.Name}}</h4>
+  <h4 style=" position:absolute; float:left; left:80px; top:190px;" >${{item1.Price}}</h4>
+  <nav>
+      <a routerLink="/detail1"  routerLinkActive="active" class="btn btn-primary" style=" position:absolute; float:left; left:80px;top:225px;">See Detail</a>
+  </nav>
+</div>
+  </div>
+  </div>
+
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">  
+    <div class="card" style=" posititon:absolute;left:60px;width:250px;height:280px" >
+      <img src="https://stachhh.neocities.org/joker.jpg" alt="The Joker™ Manor" width="200" height="150" style=" position:absolute; left:30px;" />
+      <div class="card-body">
+      
+       
+      <h4 style=" position:absolute; float:left; left:40px;top:160px;">{{item2.Name}}</h4>
+      <h4 style=" position:absolute; float:left; left:80px; top:190px;">${{item2.Price}}</h4>
+    <nav>
+      <a routerLink="/detail2"  routerLinkActive="active" class="btn btn-primary" style=" position:absolute; float:left; left:80px;top:225px;">See Detail</a>
+    </nav>
+      </div>
+      </div>
+  </div>
+
+  
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">  
+    <div class="card" style=" posititon:absolute;left:18px;width:250px;height:280px">
+      <img src="https://stachhh.neocities.org/assembly.jpg" alt="Assembly Square" width="200" height="150" style=" position:absolute; left:30px;" />
+      <div class="card-body">
+      
+       
+      <h4 style=" position:absolute; float:left; left:50px;top:160px;">{{item3.Name}}</h4>
+      <h4 style=" position:absolute; float:left; left:80px; top:190px;">${{item3.Price}}</h4>
+     <nav>
+      <a routerLink="/detail3"  routerLinkActive="active" class="btn btn-primary" style=" position:absolute; float:left; left:80px;top:225px;">See Detail</a>
+    </nav>      
+  </div>
+      </div>
+  </div>
+
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">  
+    <div class="card" style=" posititon:absolute;left:-20px;width:250px;height:280px">
+      <img src="https://stachhh.neocities.org/taji1.jpg" alt="Taj Mahal" width="200" height="150" style=" position:absolute; left:30px;"  />
+      <div class="card-body">
+      
+       
+      <h4 style=" position:absolute; float:left; left:80px;top:160px;">{{item4.Name}}</h4>
+      <h4 style=" position:absolute; float:left; left:80px; top:190px;">${{item4.Price}}</h4>
+      <nav>
+        <a routerLink="/detail4"  routerLinkActive="active" class="btn btn-primary" style=" position:absolute; float:left; left:80px;top:225px;">See Detail</a>
+      </nav>  
+          </div>
+      </div>
+  </div>
+
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">  
+    <div class="card" style=" posititon:absolute;left:100px;width:250px;height:280px" >
+      <img src="https://stachhh.neocities.org/gts.jpg" alt="Porsche 911 GT3 RS" width="200" height="150" style=" position:absolute; left:30px;" />
+      <div class="card-body">
+      
+       
+      <h4 style=" position:absolute; float:left; left:15px;top:160px;">{{item5.Name}}</h4>
+      <h4 style=" position:absolute; float:left; left:80px; top:190px;">${{item5.Price}}</h4>
+      <nav>
+        <a routerLink="/detail5"  routerLinkActive="active" class="btn btn-primary" style=" position:absolute; float:left; left:80px;top:225px;">See Detail</a>
+      </nav>       
+     </div>
+      </div>
+  </div>
+
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">  
+    <div class="card" style=" posititon:absolute;left:60px;width:250px;height:280px">
+      <img src="https://stachhh.neocities.org/disney.jpg" alt="The Disney Castle" width="200" height="150" style=" position:absolute; left:30px;" />
+      <div class="card-body">
+      
+       
+      <h4 style=" position:absolute; float:left; left:40px;top:160px;">{{item6.Name}}</h4>
+      <h4 style=" position:absolute; float:left; left:80px; top:190px;">${{item6.Price}}</h4>
+      <nav>
+        <a routerLink="/detail6"  routerLinkActive="active" class="btn btn-primary" style=" position:absolute; float:left; left:80px;top:225px;">See Detail</a>
+      </nav>         </div>
+      </div>
+  </div>
+
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">  
+    <div class="card" style=" posititon:absolute;left:20px;width:250px;height:280px">
+      <img src="https://stachhh.neocities.org/bujadi.jpg" alt="Bugatti Chiron" width="200" height="150" style=" position:absolute; left:30px;" />
+      <div class="card-body">
+      
+       
+      <h4 style=" position:absolute; float:left; left:70px;top:160px;">{{item7.Name}}</h4>
+      <h4 style=" position:absolute; float:left; left:80px; top:190px;">${{item7.Price}}</h4>
+      <nav>
+        <a routerLink="/detail7"  routerLinkActive="active" class="btn btn-primary" style=" position:absolute; float:left; left:80px;top:225px;">See Detail</a>
+      </nav>         </div>
+      </div>
+  </div>
+
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">  
+    <div class="card" style=" posititon:absolute;left:-20px;width:250px;height:280px" >
+      <img src="https://stachhh.neocities.org/hogwart1.jpg" alt="Hogwarts™ Castle" width="200" height="150" style=" position:absolute; left:30px;" />
+      <div class="card-body">
+      
+       
+      <h4 style=" position:absolute; float:left; left:25px;top:160px;">{{item8.Name}}</h4>
+      <h4 style=" position:absolute; float:left; left:80px; top:190px;">${{item8.Price}}</h4>
+      <nav>
+        <a routerLink="/detail8"  routerLinkActive="active" class="btn btn-primary" style=" position:absolute; float:left; left:80px;top:225px;">See Detail</a>
+      </nav>         </div>
+      </div>
+  </div>
+
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">  
+    <div class="card" style=" posititon:absolute;left:100px;width:250px;height:280px">
+      <img src="https://stachhh.neocities.org/milleFalon.jpg" alt="Millennium Falcon™" width="200" height="150" style=" position:absolute; left:30px;" />
+      <div class="card-body">
+      
+       
+      <h4 style=" position:absolute; float:left; left:15px;top:160px;">{{item9.Name}}</h4>
+      <h4 style=" position:absolute; float:left; left:80px; top:190px;">${{item9.Price}}</h4>
+      <nav>
+        <a routerLink="/detail9"  routerLinkActive="active" class="btn btn-primary" style=" position:absolute; float:left; left:80px;top:225px;">See Detail</a>
+      </nav>         </div>
+      </div>
+  </div>
+
+  <!-- <nav>
+      <a routerLink="/checkout"  routerLinkActive="active" class="btn btn-primary">View Cart</a>
+ </nav>
+ <nav>
+  <a (click) ="clearCart()" class="btn btn-primary">Clear Cart</a>
+</nav> -->
+</div>

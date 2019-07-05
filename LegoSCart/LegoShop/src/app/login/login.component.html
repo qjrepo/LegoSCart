@@ -1,0 +1,32 @@
+
+  <div class="container">
+<section id="content">
+  
+  
+  <form [formGroup]="profileForm" (ngSubmit)="onSubmit()" class="form">
+    <h1> Login Form</h1>
+    <div>
+    <input id="username" type="text" formControlName="accountName" required placeholder="Username">
+   </div>
+
+   <div>
+    <input id="password" type="text" formControlName="password" placeholder="Password">
+  </div>
+  <button class="submit" type="submit" [disabled]="!profileForm.valid">Login</button>
+  <nav>
+  <a routerLink="/register"  routerLinkActive="active" class="button">Register</a>
+  </nav>
+    
+  </form>
+</section>
+</div>
+
+
+
+
+
+
+
+
+
+
